@@ -18,5 +18,6 @@ public class DeckardActivityRobolectricTest {
     public void testSomething() throws Exception {
         Activity activity = Robolectric.buildActivity(DeckardActivity.class).create().get();
         assertTrue(activity != null);
+        assertTrue(false);
     }
 }
